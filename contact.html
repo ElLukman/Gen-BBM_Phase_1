@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content>
+    <title>Generasi Berani Bangun Mimpi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon_genbbm.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <!--Ini section Header -->
+            <header class="l-header">
+                <div class="nav-container">
+                    <a href="main.html#home"><img class="nav-logo" src="icon_genbbm.png" alt="logo"></a>
+                    <a href="main.html#home" class="nav-text"> Gen BBM <br>
+                    <sub class="nav-textsmall">| Generasi Berani Bangun Mimpi</sub>
+                    </a>
+                </div>
+                <nav class="nav-border">      
+                    <ul class="nav-sidebar">
+                        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#000000"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li>
+                        <li><a href="main.html#home">Home</a></li>
+                        <li><a href="main.html#about">About</a></li>
+                        <li><a href ="divisi.html">Divisi</a></li>
+                        <li><a href ="activity.html">Our Activity</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>       
+                    <ul class="nav-ul">
+                        <li class = "hideOnMobile"><a href="main.html#home">Home</a></li>
+                        <li class = "hideOnMobile"><a href="main.html#about">About</a></li>
+                        <li class = "hideOnMobile"><a href ="divisi.html">Divisi</a></li>
+                        <li class = "hideOnMobile"><a href ="activity.html">Our Activity</a></li>
+                        <li class = "hideOnMobile"><a href="contact.html">Contact</a></li>
+                        <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                    </ul>              
+                </nav>                    
+            </header>
+            
+            <!-- Contact Section -->
+            <section class="contact">
+                <div class="contact-content">
+                    <h2>Contact Us</h2>
+                    <p>Hubungi kami melalui: gen.impianbandung@gmail.com</p>
+
+                    <!-- Form Contact -->
+                    <!-- Contact Form -->
+                    <form class="contact-form" id="contactForm">
+                        <input type="email" id="email" placeholder="Masukkan email Anda" required>
+                        <textarea id="message" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+                        <button type="submit">Kirim</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer Section-->
+            <footer class="footer">
+                <div class="footer-content">
+                    <h4>Our social media: </h4>
+                    <ul class="footer-icons">
+                        <li><img src="pic/MASKOT_LK1.png" alt="Maskot LK1"></li>
+                        <li><a href="https://www.tiktok.com/@genbbm.official"><img src="pic/icon-vt.png" alt="Tiktok"></a></li>
+                        <li><a href="https://www.instagram.com/genbbm.official/"><img src="pic/icon-ig.png" alt="Instagram"></a></li>
+                        <li><a href="https://www.youtube.com/@Generasi_impianbandung"><img src="pic/icon-yt.png" alt="YouTube"></a></li>
+                        <li><img src="pic/MASKOT_PR1.png" alt="Maskot PR1"></li>
+                    </ul>
+                    <p>© 2025 Generasi Berani Bangun Mimpi - All Rights Reserved</p>
+                    <p>Icons by: <a href = "https://icons8.com/">icons8</a></p>
+                </div>
+            </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
